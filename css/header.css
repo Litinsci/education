@@ -1,0 +1,46 @@
+.header {
+    padding: 54px 0 190px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header--nav_list {
+    max-width: 400px;
+    width: 100%;
+    font-family: "Padauk", sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header--nav_list_item {
+    font-size: 15px;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    font-weight: normal;
+    color: var(--black);
+}
+
+.header--nav_list_item:hover {
+    color: var(--green);
+    cursor: pointer;
+    transition: color .4s;
+}
+
+.header--nav_list_item-active {
+    color: var(--green);
+    font-weight: bold;
+}
+
+.header--phone {
+    display: flex;
+    align-items: center;
+}
+
+.header--phone_icon {
+    color: var(--green);
+}
+
+.header--curd:hover {
+    color: var(--green);
+    cursor: pointer;
+}

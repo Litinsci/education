@@ -1,0 +1,27 @@
+.wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.mr-2 {
+    margin-right: 8px;
+}
+.mr-2 {
+    margin-right: 16px;
+}
+
+.pb-1 {
+    padding-bottom: 8px;
+}
+
+.pb-6 {
+    padding-bottom: 48px;
+}
+
+.max-w-310 {
+    max-width: 310px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
